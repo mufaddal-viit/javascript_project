@@ -2,14 +2,43 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: beige;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
-.css-trial {
-    background-color: chocolate;
+#h1s{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+    background-color: rgb(212, 154, 66);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .second {
-    color: rgb(210, 159, 83);
+    background-color: rgb(212, 154, 66);
+    width: fit-content;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(52, 32, 11);
     /* background-color: rgb(30, 114, 210); */
+}
+#btn{
+    padding: 5px;
+    border: 3px solid rgb(191, 71, 71);
+    border-radius: 2cm;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.firstly{
+    width: fit-content;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(147, 205, 229);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(52, 32, 11);
 }
