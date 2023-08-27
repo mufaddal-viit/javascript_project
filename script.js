@@ -1,5 +1,4 @@
-// const prompt=require("prompt-sync")({sigint:true}); 
-//alert("hello welcome to the board")
+//gitpush 
 function h1Func() {
     document.getElementById("h1").style.backgroundColor = "red"
 }
