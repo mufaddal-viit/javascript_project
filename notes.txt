@@ -1,0 +1,16 @@
+introductio to browser events:
+ we got three way :
+    1) using event functions in html itself
+    eg: <h1  id = "h1" onmouseover = "h1Func()" onmouseleave="h1Func2()">WELCOME TO MY WEBSITE</h1>
+    
+    2) adding event-functions  in .js file
+    eg:  document.getElementById("but").onclick = () =>{
+         document.getElementById("but").innerHTML = "blue" }
+
+    3) using addEventListener function 
+    eg: const btn = document.getElementById('btn');
+        btn.addEventListener('click', function onClick() {
+        btn.style.backgroundColor = 'salmon';
+        btn.style.color = 'white';
+        });
+
