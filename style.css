@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+
+
+.css-trial {
+    background-color: chocolate;
+}
+
+.second {
+    color: rgb(210, 159, 83);
+    /* background-color: rgb(30, 114, 210); */
+}
