@@ -1,0 +1,88 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f9;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+  
+header {  
+    background-color: #6200ea;  
+    color: white;  
+    width: 100%;  
+    text-align: center;  
+    padding: 1rem 0;  
+}  
+  
+main {  
+    flex: 1;  
+    width: 100%;  
+    max-width: 600px;  
+    padding: 1rem;  
+}  
+  
+#form-section {  
+    margin-bottom: 1rem;  
+}  
+  
+#task-form {  
+    display: flex;  
+    justify-content: space-between;  
+}  
+  
+#new-task {  
+    flex: 1;  
+    padding: 0.5rem;  
+    font-size: 1rem;  
+}  
+  
+button {  
+    padding: 0.5rem;  
+    font-size: 1rem;  
+    background-color: #6200ea;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+}  
+  
+button:hover {  
+    background-color: #3700b3;  
+}  
+  
+#list-section {  
+    background-color: white;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}  
+  
+#task-list {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+  
+#task-list li {  
+    padding: 0.5rem;  
+    border-bottom: 1px solid #ddd;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+  
+#task-list li:last-child {  
+    border-bottom: none;  
+}  
+  
+.task-complete {  
+    text-decoration: line-through;  
+    color: #888;  
+}  
+  
+footer {  
+    background-color: #6200ea;  
+    color: white;  
+    width: 100%;  
+    text-align: center;  
+    padding: 0.5rem 0;  
+}  
